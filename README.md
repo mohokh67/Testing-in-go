@@ -9,7 +9,7 @@ go help testflag # More info about testing in Go!
 ---
 ## Functional tests
 
-link to the video:
+link to the video: https://youtu.be/dRyEj7aFE6Y
 
 List of commands:
 ```bash
@@ -28,7 +28,7 @@ go tool cover -html coverage-count.out # Analyse the coverage from above in brow
 
 -------
 ## benchmark tests
-link to the video:
+link to the video: https://youtu.be/0UBv8GV8XdY
 
 List of commands:
 ```bash
