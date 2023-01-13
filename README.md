@@ -40,3 +40,15 @@ go test -bench . -memprofile mem.out # Run all benchmark tests in the current an
 go tool pprof mem.out # Checkout performance profile from previous command - type "help" and then "gif" or other format
 go test -bench . -cpuprofile cpu.out  # Run all benchmark tests in the current and profile them based on CPU
 ```
+
+-------
+## Fuzz tests
+link to the video: https://youtu.be/YiqCjEAeAyw
+
+List of commands:
+```bash
+go test -fuzz . # run current fuzz test
+go test -fuzz FuzzStringChecker # run a specific fuzz test
+go test -fuzz . -fuzztime 10s # fuzzing for 10 seconds
+go test -fuzz . -fuzztime 1000x # fuzzing for 1000 times
+```
